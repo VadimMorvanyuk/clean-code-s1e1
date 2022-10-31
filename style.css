@@ -5,30 +5,30 @@
   font-family: Lato, sans-serif;
 }
 
-.about {
+.about__content {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.about img {
+.about__content img {
   width: 100%;
 }
 
-.about .more-inf {
+.about__content .about__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .about { 
+  .about__content { 
     text-align: center;
   }
   
 }
 
-.main {
+.main__content {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.task-wrapper {
+.main__task-wrapper {
   display: flex;
 }
 
@@ -155,7 +155,7 @@ li >  input[type="text"] {
 
 /* Completed */
 
-#completed-tasks label {
+#completed__completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
